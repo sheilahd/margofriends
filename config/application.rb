@@ -1,3 +1,5 @@
+config.assets.initialize_on_precompile = false
+
 require_relative 'boot'
 
 require 'rails/all'
@@ -17,4 +19,3 @@ module Railsfriends
     # the framework and any gems in your application.
   end
 end
-# config.assets.initialize_on_precompile = false
